@@ -1,0 +1,85 @@
+main {
+width: 85%;
+margin: 0 auto;
+padding: 7%;
+ 
+
+}
+main section.full{
+	width:100%;
+	height:10vh;
+	background-color: rgb(96, 108, 56);
+}
+main section.seperempat{
+	width:23.5%;
+	height:10vh;
+	background-color: rgb(40, 54, 24);
+	margin-top:2%;
+	margin-right:2%; 
+	float: left;
+}
+main section.seperempatakhir {
+    width:23.5%;
+	height:10vh;
+	background-color: rgb(40, 54, 24);
+	margin-top:2%;
+	float: left;
+}
+main section.sepertiga {
+    width:32%;
+    height:10vh;
+    background-color: rgb(221, 161, 94);
+    margin-top:2%;
+    margin-right:2%;
+    float: left;
+}
+main section.sepertigakecil {
+	width:15%;
+	height:6vh;
+	background-color: rgb(221, 161, 94);
+	margin-top:2%;
+	margin-right:2%;
+	float: left;
+}
+main section.sepertigakecilakhir {
+	width:15%;
+	height:6vh;
+	background-color: rgb(221, 161, 94);
+	margin-top:2%;
+	float: left;
+}
+main section.setengah {
+	width:49%;
+	height:10vh;
+	background-color: rgb(96, 108, 56);
+	margin-top:2%;
+	margin-right:2%;
+	float: left;
+}
+main section.setengahakhir {
+	width:49%;
+	height:10vh;
+	background-color: rgb(96, 108, 56);
+	margin-top:2%;
+	float: left;
+}
+main section.nyarisfull {
+	width:67%;
+	height:6vh;
+	background-color: rgb(188, 108, 37);
+	margin-top:5.2%;
+	margin-right:2%;
+	float: left;
+}
+main section.blokakhir {
+	width:31%;
+	height:10vh;
+	background-color: rgb(188, 108, 37);
+	margin-top:2%;
+	float: left;
+}
+
+
+
+
+
