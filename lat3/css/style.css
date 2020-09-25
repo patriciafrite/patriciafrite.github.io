@@ -1,0 +1,129 @@
+body {
+    font-family: Arial;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.box-stand h3 {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+}
+
+.box-stand table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.box-stand table thead tr td {
+    background-color: gray;
+    padding: 10px 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.box-stand table tbody tr td {
+    padding: 5px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.box-stand table tbody tr td:nth-child(1) {
+    width: 100px;
+}
+
+.box-transperth {
+    color: grey;
+}
+
+.box-transperth h1 {
+    color: green;
+    border-bottom: 5px solid green;
+}
+
+.box-transperth h4 {
+    color: green;
+    margin: 5px 0;
+}
+
+.box-transperth ul {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.box-transperth p {
+    margin: 0;
+}
+
+.call-us {
+    list-style: none;
+}
+
+.call-us li {
+    margin-bottom: 10px;
+}
+
+.call-us li strong {
+    color: green;
+}
+
+.box-bus {
+    text-align: right;
+}
+
+.box-bus h3 {
+    font-size: 24px;
+}
+
+.box-bus h1 {
+    font-size: 130px;
+    line-height: 0;
+}
+
+.box-bus-text {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.box-routes h2 {
+    border-bottom: 3px solid grey;
+    padding-bottom: 5px;
+}
+
+.box-routes table {
+    width: 100%;
+}
+
+.box-routes table tbody tr td {
+    padding-bottom: 10px;
+}
+
+.box-routes table tbody tr td:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.box-routes table tbody tr td:nth-child(3) {
+    text-align: right;
+}
