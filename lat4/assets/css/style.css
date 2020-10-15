@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  position: absolute;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  top: 20px;
+}
+
+/* initial-letter supported only in safari */
+.drop-caps-1::first-letter {
+  float: left;
+  font-size: 60.268pt;
+  margin: 25px 10px 0px 0;
+}
+
+.drop-caps-2::first-letter {
+  float: left;
+  font-size: 60.268pt;
+  margin: -5px 10px -25px 0;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 1366px) {
+  .hide-mobile {
+    display: none;
+  }
+  .drop-caps::first-letter {
+    float: left;
+    font-size: 25pt;
+    margin: 10px 5px 0px 0;
+  }
+
+  .drop-caps-2::first-letter {
+    float: left;
+    font-size: 26.268pt;
+    margin: 10px 5px 0px 0;
+  }
+
+  .container {
+    width: 340px;
+  }
+
+  h1 {
+    font-size: 28.561pt;
+  }
+
+  h2 {
+    font-size: 16.9pt;
+  }
+
+  h3 {
+    font-size: 13pt;
+  }
+
+  .h3-line-height {
+    line-height: 13pt;
+  }
+
+  .text {
+    font-size: 10pt;
+    line-height: 13pt;
+  }
+
+  .text-small {
+    font-size: 7.692pt;
+  }
+
+  .mb-0 {
+    margin-bottom: 0;
+  }
+
+  .mt-0 {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .drop-caps::first-letter {
+    float: left;
+    font-size: 60.268pt;
+    margin: 25px 10px 0px 0;
+  }
+
+  h1 {
+    font-size: 68.573pt;
+  }
+
+  h2 {
+    font-size: 42.268pt;
+  }
+
+  h3 {
+    font-size: 28.561pt;
+  }
+
+  .h3-desktop {
+    font-size: 21.97pt;
+    line-height: 21.97pt;
+  }
+
+  .text {
+    font-size: 21.97pt;
+    /* line-height: 21.97pt; */
+  }
+
+  .text-desktop {
+    font-size: 28.561pt;
+    line-height: 28.561pt;
+  }
+
+  .text-small {
+    font-size: 16.9pt;
+  }
+}

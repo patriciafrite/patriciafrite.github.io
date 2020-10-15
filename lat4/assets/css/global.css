@@ -1,0 +1,66 @@
+/* 300 500 800 bold normal */
+@import "../fonts/futura/stylesheet.css";
+@import "../fonts/helvetica/stylesheet.css";
+
+body {
+  margin: 1cm;
+  color: #231f20;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+table {
+  width: 100%;
+}
+
+table tbody tr td {
+  text-align: center;
+}
+
+table tbody tr td:first-child {
+  text-align: left;
+}
+
+/* Futura styles */
+.futura {
+  font-family: "Futura LT";
+}
+
+.futura-bold {
+  font-weight: bold;
+}
+
+.futura-medium {
+  font-weight: 800;
+}
+
+/* Helvetica stlyes  */
+.helvetica {
+  font-family: "Helvetica";
+}
+
+.helvetica-regular {
+  font-weight: 500;
+}
+
+.helvetica-bold {
+  font-weight: bold;
+}
+
+.helvetica-light {
+  font-weight: 100;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
