@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Swis721 BlkEx BT";
+  src: local("Swis721 Blkex BT"),
+    url("../font/Swis721-BlkEx-BT-Black_43179.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeue"),
+    url("../font/HelveticaNeueMed.ttf") format("truetype");
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "HelveticaNeue";
+  margin: 0;
+  padding: 0;
+  color: white;
+  letter-spacing: 0.03em;
+  text-shadow: 0 0 1px rgb(126 126 126 / 0.5);
+}
+
+.font-swis {
+  font-family: "Swis721 BlkEx BT";
+}
+
+.router-inner {
+  padding-top: 59px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hover-cursor-pointer:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+a:hover {
+  color: unset;
+}
+
+@media (min-width: 992px) {
+  /* .navbarContainer > .container-fluid { */
+    /* max-width: 95em; */
+  }
+  /* .navbarLinksContainer {
+    padding-right: 5em;
+    padding-left: 5em;
+  } */
+  /* .navbarLogoContainer{
+    padding-left:8e
+  } */
+}

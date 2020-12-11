@@ -1,0 +1,279 @@
+/* SECTION 1 */
+.sectionBg {
+  background: url("../assets/home/BACKGROUND COVER HOME.jpg");
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  background-size: cover;
+  color: white;
+  padding-top: 60px;
+}
+
+.coverTextMarch {
+  font-size: 12pt;
+  margin-top: 60px;
+}
+
+.coverTextWWD {
+  font-size: 28pt;
+  line-height: 36pt;
+}
+
+.coverTextDenounce {
+  font-size: 14pt;
+  line-height: 16pt;
+}
+
+.coverTextDisappear {
+  font-size: 10pt;
+  margin-top: 18em;
+  text-align: center;
+}
+
+.triangleDown {
+  color: #ffffff36;
+  text-align: center;
+}
+
+.triangleDown > span {
+  display: inline-block;
+  transform: scale(2.75, 1.25);
+  margin-bottom: 1em;
+}
+
+/* SECTION 2 */
+.sectionBg-2 {
+  background: url("../assets/home/BACKGROUND ABOUT&TOKOH.jpeg");
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  background-size: cover;
+}
+
+.aboutTextTitle {
+  margin-top: 1.5em;
+  font-size: 12pt;
+}
+
+.aboutTextDescription {
+  font-size: 10pt;
+}
+
+.aboutTextReadMore {
+  text-decoration: underline;
+  font-size: 6pt;
+}
+
+.imageHippoAbout {
+  padding: 0;
+  background: url("../assets/home/ILUSTRASI HIPPO ABOUT-min.png");
+  background-repeat: no-repeat;
+  background-position: 70% 0%;
+  background-size: cover;
+  height: 300px;
+}
+.aboutCompleteImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCompleteImg > img {
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* SECTION 3 */
+.sectionBg-3 {
+  background: url("../assets/home/BACKGROUND ABOUT&TOKOH.jpeg");
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  background-size: cover;
+}
+
+.personText {
+  text-align: right;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  font-size: 12pt;
+  background-color: #475b0d;
+}
+
+.personText > p:first-child {
+  font-size: 12pt;
+}
+.personText > p {
+  font-size: 10pt;
+  word-wrap: normal;
+}
+
+.personImg {
+  background: url("../assets/home/TOKOH COWO.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.antonioText {
+  font-size: 10pt;
+}
+.ivonneText {
+  font-size: 10pt;
+}
+
+.personImgBottom {
+  background: url("../assets/home/TOKOH CEWE.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.personTextBottom {
+  text-align: left;
+}
+
+/* SECTION 4 */
+.sectionBg-4 {
+  background: url("../assets/home/BACKGROUND\ PARTNERS.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: cover;
+}
+
+.textTitle {
+  margin-top: 1.5em;
+  font-size: 12pt;
+}
+.textSubTitle {
+  font-size: 10pt;
+}
+
+.eventsListText {
+  font-size: 8pt;
+}
+.eventsListTextLeading {
+  font-size: 8pt;
+  line-height: 10pt;
+}
+.WWFPanda {
+  margin-left: 12.5px;
+}
+
+@media (min-width: 992px) {
+  .sectionBg-3 {
+    padding-bottom: 8em;
+  }
+  .sectionBg {
+    padding-top: 110px;
+  }
+  .coverTextMarch {
+    font-size: 39pt;
+  }
+  .coverTextWWD {
+    font-size: 87pt;
+    line-height: 87pt;
+    margin-top: 10px;
+  }
+  .coverTextDenounce {
+    font-size: 39pt;
+    line-height: 39pt;
+    margin-top: 10px;
+  }
+  .coverTextDisappear {
+    text-align: left;
+    font-size: 30pt;
+    margin-top: 10em;
+    margin-bottom: 2em;
+  }
+  .aboutTextTitle {
+    font-size: 39pt;
+  }
+  .aboutTextDescription {
+    font-size: 23pt;
+    line-height: 30pt;
+    margin-top: 1em !important;
+  }
+  .aboutTextReadMore {
+    font-size: 18pt;
+  }
+  .aboutCompleteImg > img {
+    max-width: unset;
+  }
+  .hidden-dekstop {
+    display: none;
+  }
+  .imageHippoAbout {
+    height: 80em;
+  }
+  .personText {
+    margin-top: 0;
+    margin-bottom: unset;
+    background-color: unset;
+  }
+  .personText > p:first-child {
+    padding: 0.5em 20px 0em 20px !important;
+    font-size: 39pt;
+    background-color: #475b0d;
+  }
+  .personText > p:nth-child(2) {
+    padding: 0em 18px 1em 18px !important;
+    font-size: 30pt;
+    background-color: #475b0d;
+  }
+  .personImg {
+    background-position: top;
+  }
+  .antonioText {
+    font-size: 23pt;
+    line-height: 30pt;
+    text-align: left;
+    margin-bottom: 8em;
+    padding: 1em 3em 10em 3em;
+  }
+  .ivonneText {
+    font-size: 23pt;
+    line-height: 30pt;
+    text-align: left;
+    margin-bottom: 8em;
+    padding: 1em 3em 10em 3em;
+  }
+  .ivonneContainer {
+    margin-top: 4em;
+  }
+  .textTitle {
+    font-size: 39pt;
+  }
+  .textSubTitle {
+    font-size: 30pt;
+  }
+  .eventsListText {
+    font-size: 23pt;
+  }
+  .eventsListTextLeading {
+    font-size: 18pt;
+    margin-top: 2em;
+    margin-bottom: 15em;
+  }
+  .personImg {
+    background: url("../assets/home/TOKOH COWO DESKTOP.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 120%;
+  }
+  .personImgBottom {
+    background: url("../assets/home/TOKOH CEWE DESKTOP.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+  }
+  .SOS {
+    width: 17em;
+  }
+  .WWFPanda {
+    width: 9em;
+    margin-left: 7em;
+  }
+  .UNDP {
+    width: 9em;
+    margin-left: 7em;
+  }
+}

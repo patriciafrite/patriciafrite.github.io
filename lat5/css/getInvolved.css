@@ -1,0 +1,88 @@
+.sectionBg {
+  background: url("../assets/get-involved/BAKGROUND GET INVOLVED.jpg");
+  padding-top: 60px;
+  background-size: 100% auto;
+}
+
+.yellow {
+  color: #bdc10c;
+}
+.sectionTitle {
+}
+
+.sectionDescription,
+.sectionSubTitle {
+  font-size: 12pt;
+  line-height: 16pt;
+}
+
+/* SECTION 4 */
+.sectionBg-4 {
+  background: url("../assets/get-involved/BAKGROUND GET INVOLVED.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: cover;
+}
+
+.textTitle {
+  margin-top: 1.5em;
+  font-size: 12pt;
+}
+.textSubTitle {
+  font-size: 10pt;
+}
+
+.eventsListText {
+  font-size: 8pt;
+}
+.eventsListTextLeading {
+  font-size: 8pt;
+  line-height: 10pt;
+}
+.WWFPanda {
+  margin-left: 12.5px;
+}
+@media (min-width: 992px) {
+  .sectionBg {
+    background: url("../assets/get-involved/BAKGROUND GET INVOLVED.jpg");
+    padding-top: 110px;
+  }
+  .sectionTitle {
+    font-size: 39pt;
+  }
+  .sectionSubTitle {
+    font-size: 30pt;
+  }
+  .sectionDescription,
+  .sectionSubTitle {
+    font-size: 23pt;
+    line-height: 30pt;
+  }
+  .sectionSubTitle {
+    margin-top: 2em !important;
+  }
+  .sectionDescription {
+    margin-top: 0.75em !important;
+  }
+  .footerContainer {
+    padding-bottom: 10em;
+    padding-top: 8em;
+  }
+  .textTitle {
+    font-size: 39pt;
+  }
+  .textSubTitle {
+    font-size: 30pt;
+  }
+  .eventsListText {
+    font-size: 23pt;
+  }
+  .eventsListTextLeading {
+    font-size: 18pt;
+    margin-top: 2em;
+    margin-bottom: 15em;
+  }
+  .footer {
+    font-size: 18pt;
+  }
+}
