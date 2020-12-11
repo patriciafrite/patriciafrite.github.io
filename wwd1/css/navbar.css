@@ -1,0 +1,152 @@
+.navbarContainer {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #1d1d1d;
+  z-index: 98;
+}
+
+.navbarItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  width: 90px;
+}
+.toggle {
+  height: auto;
+  width: 25px;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  transition: 0.3s;
+}
+
+.sidebarTopToggle {
+  width: 60px;
+  height: 60px;
+  display: inline-grid;
+  vertical-align: top;
+  place-items: center;
+}
+
+.sidebarTopMenuTextContainer {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  margin-left: 6px;
+  font-size: 14pt;
+}
+.active .toggle {
+  transform: scaleY(1);
+}
+
+.toggle:hover {
+  cursor: pointer;
+}
+
+.sidebarContainer {
+  font-size: 12pt;
+  position: fixed;
+  height: 100%;
+  width: 275px;
+  transform: translateX(-275px);
+  z-index: 99;
+  background-color: black;
+  transition: 0.3s;
+  border-top: 1px solid white;
+}
+
+.active .sidebarContainer {
+  transform: translateX(0px);
+  transition: 0.3s;
+}
+
+.sidebarMenu {
+  margin-top: 25px;
+  color: white;
+  height: calc(100vh - 60px - 25px);
+  overflow-y: scroll;
+}
+
+.sidebarMenu > div {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: calc(75px);
+}
+
+.sidebarMenu > div:hover {
+  cursor: pointer;
+}
+
+.sidebarTop {
+  height: 60px;
+  width: auto;
+}
+.menuText {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+
+.sidebarMenuBackground {
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+  z-index: -1;
+  top: 5em;
+}
+
+.sidebarImage {
+  width: 100%;
+  transform: scaleX(-1) translateX(-60px);
+}
+
+.sidebarMenuBackground2 {
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+  z-index: -1;
+  top: 20em;
+}
+.sidebarImage2 {
+  width: 100%;
+  transform: translateX(-60px);
+}
+
+@media (min-width: 992px) {
+  .wwf-logo-desktop {
+    height: auto;
+    max-width: 90%;
+    max-height: 90px;
+    max-width: 190px;
+    margin-left: 20px;
+  }
+  .mobile-d-none {
+    display: none !important;
+  }
+  .navbarContainer {
+    height: 110px;
+  }
+  .navbarLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: auto;
+    font-size: 14pt;
+    margin: 0 8px 0 8px;
+  }
+}
